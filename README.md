@@ -2,6 +2,13 @@
 
 # CSUG CSC525 Machine Learning: Module 1 Portfolio Milestone
 
+---
+
+**Summary:**
+For my Module 1 Portfolio Milestone in the Colorado State University Global CSC525 Machine Learning course, I developed a robust Python application using OpenCV that allows users to load, display, and save copies of images with ease. The application is designed to be user-friendly and handles a wide range of scenarios, including missing files, custom input/output locations, and automatic filename incrementing to prevent overwriting. To use the application, simply run the provided `main.py` file (it works as a standalone script), follow the on-screen prompts to select your image and output directory, and the program will display the image and save a uniquely named copy in your chosen location. This tool is ideal for anyone needing a reliable way to process and organize images as part of their computer vision learning or portfolio work.
+
+---
+
 ## Project Overview
 This project is for the Module 1 Portfolio Milestone in the CSUG course Machine Learning (CSC525), Spring 2026, 8 Week Session A. It demonstrates basic OpenCV usage in Python for image loading, displaying, and saving, as required by the assignment.
 
@@ -91,7 +98,7 @@ This project meets the requirements for **Option #2: Installing OpenCV 2** (numb
 
 ## Authors / Developers
 
-**Prosenjit Kumar Mandal**
+Prosenjit Kumar Mandal
 Masters Student in Artificial Intelligence and Machine Learning
 Colorado State University Global
 Email: prosenjitkm91@gmail.com

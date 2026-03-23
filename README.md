@@ -98,8 +98,8 @@ This project meets the requirements for **Option #2: Installing OpenCV 2** (numb
 
 ## Authors / Developers
 
-Prosenjit Kumar Mandal
-Masters Student in Artificial Intelligence and Machine Learning
-Colorado State University Global
-Email: prosenjitkm91@gmail.com
+Prosenjit Kumar Mandal<br>
+Masters Student in Artificial Intelligence and Machine Learning<br>
+Colorado State University Global<br>
+Email: prosenjitkm91@gmail.com<br>
 LinkedIn: [www.linkedin.com/in/prosenjitkm](https://www.linkedin.com/in/prosenjitkm)

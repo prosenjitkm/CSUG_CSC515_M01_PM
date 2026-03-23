@@ -5,7 +5,7 @@
 ---
 
 **Summary:**
-For my Module 1 Portfolio Milestone in the Colorado State University Global CSC525 Machine Learning course, I developed a robust Python application using OpenCV that allows users to load, display, and save copies of images with ease. The application is designed to be user-friendly and handles a wide range of scenarios, including missing files, custom input/output locations, and automatic filename incrementing to prevent overwriting. To use the application, simply run the provided `main.py` file (it works as a standalone script), follow the on-screen prompts to select your image and output directory, and the program will display the image and save a uniquely named copy in your chosen location. This tool is ideal for anyone needing a reliable way to process and organize images as part of their computer vision learning or portfolio work.
+For my Module 1 Portfolio Milestone in the Colorado State University Global CSC525 Machine Learning course, I developed a robust Python application using OpenCV that allows users to load, display, and save copies of images with ease. The application is designed to be user-friendly and handles a wide range of scenarios, including missing files, custom input/output locations, and automatic filename incrementing to prevent overwriting. **The script is dummy-proof: if required packages (`numpy`, `opencv-python`) are missing, it will install them automatically and prompt you to re-run the script.** To use the application, simply run the provided `main.py` file (it works as a standalone script), follow the on-screen prompts to select your image and output directory, and the program will display the image and save a uniquely named copy in your chosen location. This tool is ideal for anyone needing a reliable way to process and organize images as part of their computer vision learning or portfolio work.
 
 ---
 
@@ -25,21 +25,19 @@ This project meets the requirements for **Option #2: Installing OpenCV 2** (numb
 
 ## How to Use
 
-1. **Install dependencies** (in your project folder):
-   ```bash
-   pip install opencv-python numpy
-   ```
-
-2. **Prepare your image:**
-   - By default, the script looks for `resources/numbers_image.jpg`.
-   - You can use any image by providing its path when prompted.
-
-3. **Run the script:**
+1. **Just run the script!**
    ```bash
    python main.py
    ```
+   - If this is your first time running the script, it will check for required packages (`numpy`, `opencv-python`).
+   - If any are missing, the script will install them automatically and ask you to re-run the script.
+   - On the second run, everything will work as expected.
 
-4. **Follow the prompts:**
+2. **If you do not have the default image:**
+   - The script will now clearly prompt you to provide the full path to any image file on your computer.
+   - You can use any image by providing its path when prompted.
+
+3. **Follow the prompts:**
    - Press Enter to use the default image and directory (if available), or provide a custom path.
    - If you provide a directory, you will be prompted for the file name.
    - The script will display the image and save a copy in the chosen directory.

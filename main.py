@@ -1,3 +1,24 @@
+import sys
+import subprocess
+
+def install_and_import(package, pip_name=None):
+    """
+    Try to import a package. If not found, install it via pip and prompt user to re-run.
+    pip_name: if the pip package name is different from the import name.
+    """
+    try:
+        __import__(package)
+    except ImportError:
+        pip_pkg = pip_name if pip_name else package
+        print(f"'{package}' not found. Installing '{pip_pkg}'...")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", pip_pkg])
+        print(f"'{pip_pkg}' installed. Please re-run the script.")
+        sys.exit(0)
+
+# Ensure numpy and opencv-python are installed
+install_and_import('numpy')
+install_and_import('cv2', 'opencv-python')
+
 import numpy as np
 import cv2
 import os
@@ -38,6 +59,7 @@ def get_input_file_path():
     Returns the full path to the image file.
     """
     while True:
+        print("If you do not have the default image, please provide the full path to any image file on your computer.")
         user_path = input(f"Enter the path of the image to process (press Enter for default: {default_input_path}): ").strip()
         if user_path == '':
             # Use default

@@ -1,16 +1,16 @@
 # Colorado State University Global
 
-# CSUG CSC525 Machine Learning: Module 1 Portfolio Milestone
+# CSC515 - Foundations of Computer Vision: Module 1 Portfolio Milestone
 
 ---
 
 **Summary:**
-For my Module 1 Portfolio Milestone in the Colorado State University Global CSC525 Machine Learning course, I developed a robust and user-friendly Python application using OpenCV that allows users to load, display, and save copies of images with ease. The application is designed to be accessible for all users and handles a wide range of scenarios, including missing files, custom input/output locations, and automatic filename incrementing to prevent overwriting. **The script is robust and self-sufficient: if required packages (`numpy`, `opencv-python`) are missing, it will install them automatically and prompt you to re-run the script.** To use the application, simply run the provided `main.py` file (it works as a standalone script), follow the on-screen prompts to select your image and output directory, and the program will display the image and save a uniquely named copy in your chosen location. This tool is ideal for anyone needing a reliable way to process and organize images as part of their computer vision learning or portfolio work.
+For my Module 1 Portfolio Milestone in the Colorado State University Global course CSC515 - Foundations of Computer Vision, I developed a robust and user-friendly Python application using OpenCV that allows users to load, display, and save copies of images with ease. The application is designed to be accessible for all users and handles a wide range of scenarios, including missing files, custom input/output locations, and automatic filename incrementing to prevent overwriting. **The script is robust and self-sufficient: if required packages (`numpy`, `opencv-python`) are missing, it will install them automatically and prompt you to re-run the script.** To use the application, simply run the provided `main.py` file (it works as a standalone script), follow the on-screen prompts to select your image and output directory, and the program will display the image and save a uniquely named copy in your chosen location. This tool is ideal for anyone needing a reliable way to process and organize images as part of their computer vision learning or portfolio work.
 
 ---
 
 ## Project Overview
-This project is for the Module 1 Portfolio Milestone in the CSUG course Machine Learning (CSC525), Spring 2026, 8 Week Session A. It demonstrates basic OpenCV usage in Python for image loading, displaying, and saving, as required by the assignment.
+This project is for the Module 1 Portfolio Milestone in the course CSC515 - Foundations of Computer Vision, Spring 2026, 8 Week Session A. It demonstrates basic OpenCV usage in Python for image loading, displaying, and saving, as required by the assignment.
 
 You will:
 - Install OpenCV and numpy (if not already installed)
